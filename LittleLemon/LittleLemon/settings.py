@@ -133,32 +133,3 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 2
     
 }
-
-"""**Step 7:**
-
-Open the **settings.py** file inside the project-level directory **LittleLemon**.
-
-Locate the code in the screenshot and follow the instructions provided below to update the code.
-
-![](assets/1.png)
-
-You will add three configurations inside `REST_FRAMEWORK` this time.
-
-1. Create a string `'DEFAULT_FILTER_CLASSES'` and assign a list to it containing the following string items.
-
-- `'rest_framework.filters.OrderingFilter'`
-- `'rest_framework.filters.SearchFilter'`
-
-**Note:** Make sure to add a comma after each element added to the list.
-
-1. Create a string like `'DEFAULT_PAGINATION_CLASS'`.
-
-- Add a colon (`:`)
-- Add another string `'rest_framework.pagination.PageNumberPagination'`
-- Add a comma (`,`)
-
-1. Create a string `'PAGE_SIZE'`
-
-- Add a colon (`:`)
-- Add `2`
-- Add a comma (`,`)"""
